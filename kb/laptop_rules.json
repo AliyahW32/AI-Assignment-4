@@ -1,0 +1,134 @@
+[
+  {
+    "name": "Premium Ultrabook",
+    "if": [
+      "budget_high",
+      "portable",
+      "long_battery"
+    ],
+    "then": "recommend:premium_ultrabook",
+    "priority": 5
+  },
+
+
+
+  {
+    "name": "Ram",
+    "if": [
+      "creative_work",
+      "portable"
+    ],
+    "then": "recommend:Ram_16GB_plus",
+    "priority": 4
+  },
+
+
+
+  {
+    "name": "Budget Laptop",
+    "if": [
+      "portable"
+    ],
+    "then": "recommend:budget_laptop",
+    "priority": 3
+  },
+
+
+
+
+  {
+    "name": "Desktop Replacement",
+    "if": [
+      "budget_high",
+      "long_battery"
+    ],
+    "then": "recommend:desktop_replacement",
+    "priority": 2
+  },
+
+
+
+
+  {
+    "name": "Basic Desktop",
+    "if": [
+      "budget_low"
+
+    ],
+    "then": "recommend:basic_desktop",
+    "priority": 1
+  },
+
+
+
+
+  {
+    "name": "MacBook Pro",
+    "if": [
+      "budget_high",
+      "portable",
+      "long_battery",
+      "frequent_travel"
+    ],
+    "then": "recommend:macbook_pro",
+    "priority": 6
+  },
+
+
+
+  {
+    "name": "Lightweight Chromebook",
+    "if": [
+      "portable",
+      "long_battery"
+    ],
+    "then": "recommend:lightweight_chromebook",
+    "priority": 4
+  },
+
+
+
+  {
+    "name": "Workstation Laptop",
+    "if": [
+      "budget_high",
+      "long_battery"
+    ],
+    "then": "recommend:workstation_laptop",
+    "priority": 5
+  },
+
+
+
+  {
+    "name": "Affordable Ultrabook",
+    "if": [
+      "portable",
+      "long_battery",
+      "budget_low",
+      "frequent_travel"
+    ],
+    "then": "recommend:affordable_ultrabook",
+    "priority": 3
+  },
+
+
+
+{
+    "name": "Entry-Level Laptop",
+    "if": [
+      
+      "creative_work"
+    ],
+    "then": "recommend:entry_level_laptop",
+    "priority": 2
+  }
+]
+
+
+
+
+
+
+
+
